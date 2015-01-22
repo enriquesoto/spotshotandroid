@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="green_wfi">#50D67D</color>
+    <color name="blue_wfi">#1F86BC</color>
+    
+    <color name="blue_dark_ss">#2E3F53</color>
+    <color name="blue_light_dark_ss">#425262</color>
+        <color name="blue_other_ss">#394A5A</color>
+    
+    <color name="green_dark_ss">#00A986</color>
+    <color name="green_light_ss">#00BC9E</color>
+    
+    
+    <color name="gray_ss">#8798A8</color>
+    
+    <color name="light_blue_ss">#E1F4F4</color>
+    
+    
+    
+</resources>

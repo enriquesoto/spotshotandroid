@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:spotshot="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_request_friend"
+        android:icon="@drawable/image__btn_request_friend"
+        android:title="@null"
+        spotshot:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_request_friend2"
+        android:icon="@drawable/image__btn_request_friend"
+        android:title="@null"
+        spotshot:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/image__btn_add_friend"
+        android:title="@null"
+        spotshot:showAsAction="ifRoom"/>
+
+</menu>

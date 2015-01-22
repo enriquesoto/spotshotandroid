@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpotShot</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Splash -->
+    <string name="load_splash">Cargando</string>
+
+    <!-- Presentation -->
+
+    <string name="sign_in">Ingresar</string>
+    <string name="sign_up">Registrar</string>
+    <string name="title_splash_1">SpotShot</string>
+    <string name="content_splash_1">Conoce gente divertida y de una forma diferente</string>
+    <string name="title_splash_2">Sube y Descarga Fotos</string>
+    <string name="content_splash_2">Ahora podras descargar fotos de manera diferente e imaginable</string>
+    <string name="title_splash_3">Redes Sociales</string>
+    <string name="content_splash_3">Podras compartir tus fotos a tus amigos y asi aumentar tu popularidad</string>
+    <string name="title_splash_4">Fotos Populares</string>
+    <string name="content_splash_4">Conoce fotos populares segun tu ubicacion</string>
+
+    <!-- Login -->
+
+    <string name="login">Iniciar sesión</string>
+    <string name="email">Correo Electronico</string>
+    <string name="password"> Contraseña</string>
+    <string name="lostPassword">¿Olvidaste tu contraseña?</string>
+
+    <!-- Register -->
+
+    <string name="register">Registro de Usuario</string>
+    <string name="next">Siguiente</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="gender">Genero</string>
+    <string name="birthday">Cumpleaños</string>
+    <string name="eula">Licencia de Acuerdo</string>
+    <string name="text_eula">Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto
+        , Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto
+        , Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto, Aqui va el texto</string>
+
+    <!-- DashBoard -->
+
+
+    <!--
+    <string name="title_section1">Mi perfil</string>
+    <string name="title_section2">Mi fotos</string>
+    <string name="title_section3">Chat</string>
+    <string name="title_section4">Cerrar sesion</string>
+    -->
+
+    <string-array name="array_titles_nav_drawer">
+        <item>Mi perfil</item>
+        <item>Mis Fotos</item>
+        <item>Mis Amigos</item>
+        <item>Cerrar sesión</item>
+    </string-array>
+    <string-array name="array_icons_profile">
+        <item>@drawable/image__profile_user</item>
+        <item>@drawable/image__profile_gallery</item>
+        <item>@drawable/image__profile_chat</item>
+        <item>@drawable/image__profile_logout</item>
+    </string-array>
+
+    <!-- My profile - sections -->
+    <string-array name="array_titles_my_photos">
+        <item>Mapa</item>
+        <item>Galeria</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login_activity2">LoginActivity2</string>
+
+    <!-- Configuracion Facebook -->
+    <string name="app_id">292953740893419</string>
+    <string name="update_status">Actualizar Estado</string>
+    <string name="post_image">Compartir Imagen</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <!-- Dialog -->
+
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Camera -->
+
+    <string name="btn_capture">Click</string>
+    <string name="camera_not_found">No camera harware found</string>
+    <string name="take_photo_help">Touch anywhere on screen to take picture</string>
+    <string name="title_activity_register_user2">RegisterUser2Activity</string>
+    <string name="writeCamare">Escribe aqui</string>
+    <string name="api_key">AIzaSyCbMNHiUZIAqzvvMwMf90o3Y916vhj2NLE</string>
+
+    <!-- iconos -->
+    <string name="action_settings">Configuracion</string>
+    <string name="action_example">Actualizar</string>
+    <string name="action_s">Actualizar</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+</resources>

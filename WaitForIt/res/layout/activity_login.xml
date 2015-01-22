@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image__login_bg" >
+
+    <LinearLayout
+        android:id="@+id/lllogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"        
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/bgImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image__logo" />
+
+        <ImageView
+            android:id="@+id/ivLogoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/image__logo_title"
+            android:contentDescription="@null" />
+
+ 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lllogo"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:paddingTop="10dp" >
+        
+        
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/xml__login_ed_circle"
+            android:hint="@string/username"
+            android:inputType="textWebEmailAddress"
+            android:paddingLeft="25dp"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/xml__login_ed_circle"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="25dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvLostPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/lostPassword"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/xml__horizontal_dashed_line"
+            android:contentDescription="@null" />
+
+        <Button
+            android:id="@+id/bSignIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/sign_in"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
